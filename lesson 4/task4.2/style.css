@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.go-to {
+  display: inline-block;
+  background-color: #77e7fdff;
+  color: black;
+  text-decoration: none;
+  padding-left: 26px;
+  line-height: 64px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.go-to::after {
+  content: ">";
+  display: inline-block;
+  width: 59px;
+  height: 64px;
+  background-color: #15afcfff;
+  line-height: 64px;
+  text-align: center;
+  color: #fff;
+  margin-left: 26px;
+}

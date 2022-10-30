@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Yeseva+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Yeseva One", cursive;
+  background-color: #fffaf3;
+  background-image: url(./images/grapes.svg);
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+.container {
+  max-width: 1080px;
+  margin: auto;
+}
+header {
+  display: inline-block;
+  border-bottom: 1px solid #c08d5d;
+  padding: 47px 0 39px;
+}
+
+.logo,
+nav {
+  display: inline-block;
+  vertical-align: middle;
+}
+header a img {
+  width: 39px;
+  height: 59px;
+  margin-right: 83px;
+}
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-family: "Open Sans";
+  font-size: 20px;
+  margin-right: 54px;
+}
+.active {
+  color: #c08d5d;
+}
+.content {
+  max-width: 536px;
+  padding: 127px 0 59px;
+}
+h1 {
+  text-transform: uppercase;
+  color: #3f4042;
+  font-family: "Yeseva One";
+  font-size: 70px;
+  letter-spacing: 0.06em;
+  font-weight: 400;
+}
+h1 span {
+  text-transform: none;
+  display: block;
+  font-family: "Yeseva One";
+  font-size: 50px;
+  letter-spacing: 0.06em;
+  font-weight: 400;
+  margin-bottom: 7px;
+}
+h1 span::after {
+  content: "";
+  display: inline-block;
+  background-image: url(./images/logo.svg);
+  width: 45px;
+  height: 69px;
+  margin-left: 8px;
+  background-repeat: no-repeat;
+}
+h1 span,
+h1 span::after {
+  vertical-align: middle;
+}
+h1::after {
+  content: "";
+  background-image: url(./images/vector.svg);
+  display: block;
+  width: 165px;
+  height: 12px;
+  margin-top: 45px;
+}
+p {
+  font-family: "Open Sans";
+  font-size: 18px;
+  letter-spacing: 0.06em;
+  color: #3f4042;
+  padding: 26px 0 72px;
+}
+.read-more {
+  display: inline-block;
+  text-decoration: none;
+
+  font-family: "Open Sans";
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  color: #3f4042;
+  border: #c08d5d solid 2px;
+  padding-left: 16px;
+  line-height: 60px;
+}
+
+.read-more::after {
+  content: url(./images/go-to.svg);
+  width: 59px;
+  height: 60px;
+  display: inline-block;
+  color: #fff;
+  background-color: #c08d5d;
+  line-height: 60px;
+  text-align: center;
+  margin-left: 11px;
+}
+main a img {
+  width: 33px;
+  height: 48px;
+}
+main a {
+  text-align: center;
+  display: block;
+}
